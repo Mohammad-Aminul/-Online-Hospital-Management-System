@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<div class="maindiv">
+		<head>
+			<meta charset="UTF-8" />
+			<script src="home.js">
+			</script>
+
+			<title> physicians_list </title>
+			<link rel="stylesheet" type="text/css" href="../CSS/physicians_list.css" />
+             <link rel="stylesheet" type="text/css" href="../CSS/header_footer.css" />
+
+			<header>
+
+				<h1 align="top">Medico Hospital Limited</h1>
+
+				<div id="clock" class="clocksize">
+					clock
+				</div>
+
+				<h2> Service is our vision </h2>
+
+			</header>
+		</head>
+		<nav>
+			<li >
+				<a href="home.html">Home</a>
+			</li>
+			<li>
+				<a href="department_list.html">Departments</a>
+			</li>
+			<li>
+				<a href="physicians_list.html">Physicians</a>
+			</li>
+			
+			<li>
+				<a href="../PHP/room_rates.php"> Seat Rent</a>
+			</li>
+			<li>
+				<a href="ambulance_service.html">Ambulance service</a>
+				<li>
+				<a href="../PHP/admin_panel_login_form.php">Admin</a>
+			</li>
+			</li>
+			<form action="../PHP/search_doctor.php" method="post">
+			 	<select name="select_doc">
+			 		<option >--select doctor--</option>
+			 		<option value="Dr. Mostafa Miah">Dr. Mostafa Miah</option>
+			 		<option>Dr. Rajib Miah</option>
+			 		<option>Dr. Mahamudul Hasan</option>
+			 		<option>Dr. Saddam Hossain</option>
+			 	</select>
+			 	<input type="submit" title="Search" name="submit" id="submit" value="Search" " />
+			</form>
+		</nav>
+			<body onload="startTime()">
+
+			<div>
+				<table id="sidetable">
+					<caption id="mainmenucaption">
+						Main Menu
+					</caption>
+						<tr>
+			<th class="odd"><a href="home.html"> Home</a></th>
+			</tr>
+
+			<tr>
+			<th class="even"><a href="department_list.html"> Departments</a></th>
+			</tr>
+			<tr>
+			<th class="odd"><a href="physicians_list.html"> physicians</a></th>
+			</tr>
+			<tr>
+			<th class="even"><a href="../PHP/room_rates.php"> Seat Rent</a></th>
+			</tr>
+            <tr>
+			<th class="odd"><a href="../PHP/blood_donation.php"> Blood Donation group</a></th>
+			</tr>
+			<tr>
+			<th class="even"><a href="../PHP/clinical_test.php"> Clinical Test </a></th>
+			</tr>
+			<tr>
+			<th class="odd"><a href="">Cafeteria</a></th>
+			</tr>
+
+				</table>
+			</div>
+
+	<div class="bodyofphysicians">
+				<p class="mainheaderofphysicianlist">
+				  Physician List
+			   </p>
+
+			
+
+				<table>
+
+					<tr class="tablerowheader">
+						<td></td>
+						<td>Name</td>
+						<td>Designation</td>
+						<td>Department</td>
+					</tr>
+                     <tr>
+						<td><img src="../physician_image/mostafa.jpg" alt="Dr. Mostafa's photo" /><a href="../PHP/appointment_form_mostafa.php" target="_blank">appointment</a></td>
+						<td>Dr. Mostafa Miah</td>
+						<td>Medicine Specialist</td>
+						<td>General Surgery </td>
+					</tr >
+					<tr>
+						<td><img src="../physician_image/mahamudul.JPG" alt="Dr. Mahamudul's photo" /><a href="../PHP/appointment_form_mahamudul.php" target="_blank">appointment</a></td>
+						<td>Dr. Mahamudul Hasan</td>
+						<td>Director of Medical Services and Consultant </td>
+						<td>General Surgery </td>
+					</tr >
+
+					<tr >
+						<td><img src="../physician_image/aminul.JPG" alt="Dr.aminul's photo" /><a href="../PHP/appointment_with_aminul.htm" target="_blank">appointment</a></td>
+						<td>Mohammad Aminul Islam</td>
+						<td>Director of Medical Services and Consultant </td>
+						<td>Neurology </td>
+					</tr>
+
+					<tr>
+						<td><img src="../physician_image/rejvi.JPG" alt="Dr. rejvi's photo" /><a href="../PHP/appointment_with_rejvi.htm" target="_blank">appointment</a></td>
+						<td>Mukter Hossain</td>
+						<td>Associate Consultant </td>
+						<td>General Surgery </td>
+					</tr>
+
+					<tr>
+						<td><img src="../physician_image/saddam.JPG" alt="Dr. aminul's photo" /><a href="../PHP/appointment_with_saddam.htm" target="_blank">appointment</a></td>
+						<td>Md. Saddam Hossain</td>
+						<td>Consultant </td>
+						<td>Internal Medicine & Critical Care </td>
+
+				</table>
+
+				<p>
+					<a href="physicians_list2.html"> Next..... </a>
+				</p>
+
+
+	 </div>
+
+</body>
+
+	<footer>
+		    <pre>
+	Bindobasini girls school road, old bus stand,Tangail
+Phone: (880-2) 8159457, 8142431, Mobile: 01713141447 (PABX), PABX for OPD Appointment: 2001, 2002 and 2018
+24hr Emergency and Ambulance service: 8144466, 8144477, 8144488
+ER Mobile: 01714418963-5, Fax: (880-2) 9118921, 9114342, email: info@aminul.ruet@yahoo.com, web: www.medicohospital.com
+			</pre>
+	</footer>
+	    </div>
+	   	
+</html>
